@@ -36,6 +36,7 @@ a{
 	max-height: 100%;
 	max-width: 100%;
 	padding: 0px 0 0 0px;
+	filter: contrast(0.2);
 }
 .details{
 	display: flex;
