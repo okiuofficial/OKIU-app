@@ -22,20 +22,21 @@ body {
   font-size: 40px;
   font-weight: bold;
   color: #ffffff;
-  margin: 15px 0 0 0;
+  margin: 0;
   position: absolute;
-  top: 20px;
-  left: 110px;
+  top: 121.5px;
+  left: 102.773px;
 }
 .box:hover .redondo {
   width: 290px;
-  height: 120px;
+  height: 290px;
   position: absolute;
   bottom: 0px;
   right: 0px;
   transition: width .3s, height .3s, margin .3s;
   margin: 0;
   padding: 0;
-  border-radius: 20px 20px 20px 20px;
-  background: #66666699;
+  border-radius: 10px;
+  background: #000000;
+  opacity: 70%;
 }
