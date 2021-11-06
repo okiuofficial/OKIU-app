@@ -23,7 +23,7 @@ a{
 	width: 290px;
 	height: 290px;
 	background-color:#e2e2e2;
-	border-radius: 20px;
+	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -36,7 +36,6 @@ a{
 	max-height: 100%;
 	max-width: 100%;
 	padding: 0px 0 0 0px;
-	filter: brightness(0.2) drop-shadow(0px 0px 5px white);
 }
 .details{
 	display: flex;
@@ -80,7 +79,7 @@ a{
 }
 
 .box:hover img {
-    filter: brightness(1) drop-shadow(0px 0px 20px white);
+    filter: contrast(0) brightness(5);
 }
 /*--responsive for mobile phone--*/
 
