@@ -17,12 +17,12 @@ a{
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 0 20px 0;
+	padding: 20px 0;
 }
 .box{
 	width: 290px;
 	height: 290px;
-	background-color:#e2e2e2;
+	background-color:#efefef;
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
@@ -36,7 +36,7 @@ a{
 	max-height: 100%;
 	max-width: 100%;
 	padding: 0px 0 0 0px;
-	filter: contrast(0.2);
+    filter: contrast(0.2);
 }
 .details{
 	display: flex;
