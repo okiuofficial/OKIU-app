@@ -30,6 +30,15 @@ body {
     height: 100%;
     background: #000000;  
 }
+/*-------------------------------------- logo ------------------------------*/
+.logolol img {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: -270px;
+    left: 40%;
+    transform: rotate(-15deg);
+}
 
 /*------------------------------- linea bajo video -------------------------------------*/
 .linea{
@@ -45,7 +54,7 @@ body {
     display: inline-block;
     width: 20%;
     height: 30px;
-    background: #fb9f00;
+    background: #ffffff;
     position: relative;
     bottom: 60px;
     border-radius: 20px;
@@ -109,7 +118,62 @@ body {
 
 /*--------------------------------- blokiu -------------------------*/
 .blokiu {
-    position: relative;
-    bottom: 790px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
     background: #fff;
+}
+
+/*------------------contenedor carga--------------------*/
+#contenedor_carga {
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 10000;
+}
+#carga {
+    border: 15px a #c0c4d5;
+    border-top-color: #fe9f00;
+    border-top-style: groove;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+    -webkit-animation: girar 0.8s linear infinite;
+    -o-animation: girar 0.8s linear infinite;
+    animation: girar 0.8s linear infinite;
+
+}
+#contenedor_carga p {
+    position: absolute;
+    top: 52%;
+    left: 0;
+    right: 0;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px 40px;
+    border-radius: 0px 100px 100px 100px;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
